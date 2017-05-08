@@ -1,3 +1,215 @@
 /*
  * Estilos de tu proyecto
  */
+header{
+  position: fixed;
+}
+
+nav{
+   background: #2C3E50;
+   font-weight: bolder;
+   padding: 40px;
+}
+
+nav a{
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover{
+  color: #18bc9c;
+}
+
+.title{
+   font-size: 28px;
+   line-height: 20px;
+}
+
+.title:hover{
+   color: #fff;
+}
+
+.home {
+  background: #18bc9c;
+  padding: 200px 108px 108px 108px;
+}
+
+.home h1{
+  padding-top: 25px;
+  font-size: 66px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills{
+  font-size: 24px;
+  color: #fff;
+  padding-top: 21px;
+}
+
+.line{
+  width: 80px;
+  height: 5px;
+  background: #fff;
+  display: inline-block;
+  vertical-align:super;
+}
+
+.fa-star{
+  color: #fff;
+  font-size: 30px;
+  padding: .5%;
+}
+
+.inicio p{
+  padding-top:2%;
+  color: #fff;
+  font-size: 24px;
+}
+
+.portfolio, .contact{
+  padding: 8%;
+}
+
+.portfolio h2{
+  color: #333;
+  font-size: 47px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio .fa-star{
+  color: #2C3E50;
+}
+
+.portfolio>article>section>div{
+  background:#2C3E50;
+}
+
+.portfolio img{
+  width: 124%;
+}
+
+.portfolio img:hover{
+  background: #18bc9c;
+}
+
+.row-padding{
+  padding: 1.2%;
+}
+
+#title-portfolio, #title-about, #title-contact{
+  padding-bottom: 3%;
+}
+.about{
+  background: #18bc9c;
+  padding: 8%;
+}
+.about h2{
+  color: #fff;
+  font-size: 47px;
+  font-family: 'Montserrat', sans-serif;
+}
+.about p{
+  color: #fff;
+  font-size: 19px;
+  padding: 2.5%;
+  line-height: 1.5;
+  text-align: left;
+}
+.about button{
+  border-radius: 7px;
+  border: 2px solid #fff;
+  padding: 2%;
+  color: #fff;
+  font-size: 19px;
+  background: none;
+  margin-top: 4%;
+}
+.about button:hover{
+  color: #18bc9c;
+  background: #fff;
+}
+.contact h2{
+  color: #333;
+  font-size: 47px;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact .fa-star{
+  color: #2C3E50;
+}
+.contact>article>section>div{
+  background:#2C3E50;
+}
+form>input,textarea{
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  border-top: 1px solid #eee;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+textarea{
+  border-bottom:  1px solid #eee;
+}
+.contact button{
+  border-radius: 7px;
+  border: none;
+  background: #18bc9c;
+  padding: 13px 18px;
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+  margin: 20%;
+}
+footer{
+  background: #2C3E50;
+  padding: 4%;
+}
+footer h3{
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+footer p{
+  font-size: 21px;
+  color: #fff;
+  margin-top: 5%;
+  padding: 3%;
+  padding-bottom: 0px;
+}
+footer a{
+  color: #18BC9C;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer .icon-redes{
+  display: inline-block;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 9% 1%;
+  padding: 2.5%;
+  color: #fff;
+  font-size: 19px;
+}
+footer .icon-redes:hover{
+  color:#18BC9C;
+  background: #fff;
+}
+.copyright{
+  font-size: 13px;
+  background: #233140;
+  color: #fff;
+  padding: 2%;
+  line-height: 1.5;
+}
+
+.footer-p{
+  text-align: center;
+}
